@@ -144,6 +144,9 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
 
         tvCount = (TextView) navView.inflateHeaderView(R.layout.nav_header_main).findViewById(R.id.tt);
         tvCount.setText("清单总数: " + dataList.size() + " 项");
+
+        // 显示图片原来颜色
+        navView.setItemIconTintList(null);
     }
 
     @Override

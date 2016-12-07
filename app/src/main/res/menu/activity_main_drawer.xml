@@ -29,32 +29,32 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_list"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@mipmap/ic_list"
             android:title="列表布局"/>
         <item
             android:id="@+id/nav_grid"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@mipmap/ic_grid"
             android:title="网络布局局"/>
         <item
             android:id="@+id/nav_delete_all"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@mipmap/ic_clean"
             android:title="清除所有数据"/>
         <item
             android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@mipmap/ic_coding"
             android:title="功能尚未开发"/>
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="联系作者">
         <menu>
             <item
                 android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share"/>
+                android:icon="@mipmap/ic_qq"
+                android:title="QQ:1584764382"/>
             <item
                 android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send"/>
+                android:icon="@mipmap/ic_mail"
+                android:title="Mail:1584764382@qq.com"/>
         </menu>
     </item>
 
